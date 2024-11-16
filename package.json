@@ -1,0 +1,19 @@
+{
+  "name": "@abn-validator/abn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": ["build/**/*"],
+  "scripts": {
+    "clean":"del ./build/*",
+    "build":"npm run clean && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del-cli": "^6.0.0",
+    "typescript": "^5.6.3"
+  }
+}
