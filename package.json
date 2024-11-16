@@ -1,19 +1,26 @@
 {
   "name": "@abn-validator/abn",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
-  "files": ["build/**/*"],
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
-    "clean":"del ./build/*",
-    "build":"npm run clean && tsc"
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Thilina Dilshan",
   "license": "ISC",
   "dependencies": {
     "del-cli": "^6.0.0",
     "typescript": "^5.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thilina4321/abn-validator"
+  },
+  "keywords": ["abn", "validator", "australia", "npm-package"],
+  "homepage": "https://github.com/thilina4321/abn-validator"
 }
