@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Tests and development files
+test/
+tests/
+__tests__/
+spec/
+example/
+examples/
+coverage/
+docs/
+
+# Build files
+dist/
+build/
+
+# Configuration and temporary files
+*.env
+*.local
+*.tmp
+*.bak
